@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    background-color: blueviolet;
+}
+
+.filho{
+    background-color: yellow;
+    color:black;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 100px;
+    ;
+}
