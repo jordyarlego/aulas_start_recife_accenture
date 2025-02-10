@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    margin: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_container{
+    
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.f_item{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(215, 221, 250);
+    border-radius: 30px;
+    color: rgb(189, 44, 218);
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
